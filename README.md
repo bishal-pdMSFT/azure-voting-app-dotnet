@@ -4,7 +4,7 @@ This sample is the .NET implementation of the [official Azure Voting App](https:
 
 The application interface is built using ASP.NET Core Blazor Server. The data component uses Redis.
 
-This sample also includes the following features:
+This sample also includes the following features::
 
 1. Instrumented to produce OpenTelemetry traces and export the traces to the console.
 2. Request to GET `/traced-exception` endpoint will throw an exception. It shows how unhandled exceptions are logged in the active OpenTelemtry span.
